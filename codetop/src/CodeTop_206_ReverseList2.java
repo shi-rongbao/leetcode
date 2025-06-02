@@ -3,7 +3,7 @@
  * @date: 2025-06-02
  * @description:
  */
-public class CodeTop_206_InvertedLinkedList2 {
+public class CodeTop_206_ReverseList2 {
 
     public ListNode reverseList(ListNode head) {
         if (head == null) {
@@ -24,6 +24,5 @@ public class CodeTop_206_InvertedLinkedList2 {
 
         return result;
     }
-
 
 }
