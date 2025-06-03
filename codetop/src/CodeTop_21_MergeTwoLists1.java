@@ -1,11 +1,9 @@
-import java.util.List;
-
 /**
  * @author: ShiRongbao
  * @date: 2025-06-03
  * @description:
  */
-public class CodeTop_21_MergeTwoLists {
+public class CodeTop_21_MergeTwoLists1 {
 
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         if (list1 == null) {
