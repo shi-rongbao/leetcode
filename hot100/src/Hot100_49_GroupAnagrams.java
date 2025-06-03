@@ -23,15 +23,4 @@ public class Hot100_49_GroupAnagrams {
         return map.values().stream().toList();
     }
 
-    public static void main(String[] args) {
-        Hot100_49_GroupAnagrams solution = new Hot100_49_GroupAnagrams();
-
-        String[] input = {"eat", "tea", "tan", "ate", "nat", "bat"};
-        List<List<String>> result = solution.groupAnagrams(input);
-
-        // 打印结果
-        for (List<String> group : result) {
-            System.out.println(group);
-        }
-    }
 }
