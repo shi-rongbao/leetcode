@@ -36,25 +36,4 @@ public class CodeTop_21_MergeTwoLists {
         return dummy.next;
     }
 
-    public static void main(String[] args) {
-        CodeTop_21_MergeTwoLists solution = new CodeTop_21_MergeTwoLists();
-
-        // 构造两个链表
-        // list1: 1 -> 2 -> 4
-        ListNode list1 = new ListNode(1, new ListNode(2, new ListNode(4)));
-
-        // list2: 1 -> 3 -> 4
-        ListNode list2 = new ListNode(1, new ListNode(3, new ListNode(4)));
-
-        // 合并
-        ListNode result = solution.mergeTwoLists(list1, list2);
-
-        // 打印结果
-        while (result != null) {
-            System.out.print(result.val + " -> ");
-            result = result.next;
-        }
-        System.out.println("null");
-    }
-
 }
