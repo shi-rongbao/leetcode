@@ -14,8 +14,6 @@ public class Hot100_15_ThreeSum {
         int length = nums.length;
         Arrays.sort(nums);
 
-        System.out.println("排序后的！" + Arrays.toString(nums));
-
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] > 0) {
                 return result;
@@ -60,22 +58,4 @@ public class Hot100_15_ThreeSum {
         return result;
     }
 
-    public static void main(String[] args) {
-        Hot100_15_ThreeSum solution = new Hot100_15_ThreeSum();
-
-        // 测试案例 1
-        int[] nums1 = {-1, 0, 1, 2, -1, -4};
-        System.out.println("Test case 1 input: " + Arrays.toString(nums1));
-        System.out.println("Result: " + solution.threeSum(nums1));
-
-        // 测试案例 2
-        int[] nums2 = {-1, 0, 1, 0};
-        System.out.println("Test case 2 input: " + Arrays.toString(nums2));
-        System.out.println("Result: " + solution.threeSum(nums2));
-
-        // 测试案例 3
-        int[] nums3 = {0, 0, 0};
-        System.out.println("Test case 3 input: " + Arrays.toString(nums3));
-        System.out.println("Result: " + solution.threeSum(nums3));
-    }
 }
